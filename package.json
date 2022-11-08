@@ -3,11 +3,13 @@
 	"source": "src/index.pug",
 	"scripts": {
 		"start": "parcel",
-		"build": "parcel build"
+		"build": "parcel build",
+		"beautify": "prettier --write ."
 	},
 	"devDependencies": {
 		"@parcel/transformer-pug": "2.7.0",
 		"@parcel/transformer-sass": "2.7.0",
-		"parcel": "latest"
+		"parcel": "latest",
+		"prettier": "2.7.1"
 	}
 }
