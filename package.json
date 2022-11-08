@@ -1,5 +1,11 @@
 {
-  "devDependencies": {
-    "parcel": "^2.7.0"
-  }
+	"name": "parcel-pug-scss-boilerplate",
+	"source": "src/index.html",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build"
+	},
+	"devDependencies": {
+		"parcel": "latest"
+	}
 }
