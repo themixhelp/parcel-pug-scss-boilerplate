@@ -1,11 +1,12 @@
 {
 	"name": "parcel-pug-scss-boilerplate",
-	"source": "src/index.html",
+	"source": "src/index.pug",
 	"scripts": {
 		"start": "parcel",
 		"build": "parcel build"
 	},
 	"devDependencies": {
+		"@parcel/transformer-pug": "2.7.0",
 		"@parcel/transformer-sass": "2.7.0",
 		"parcel": "latest"
 	}
