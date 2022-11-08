@@ -1,9 +1,11 @@
 @use 'variables';
 
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
 body {
-    font-size: variables.$font-size;
+	font-size: variables.$font-size;
 }
